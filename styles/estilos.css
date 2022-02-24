@@ -1,0 +1,88 @@
+
+
+body {
+    background-image: url("fondo.jpg");     
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;                       
+    position: relative;
+	min-height: 100vh;
+	background-color: #E1E8EE;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div{
+    text-align: center;
+    background-color: rgba(145, 141, 141, 0.4);
+    display: grid;
+    
+}
+
+#ContenedorCaja{
+    width: 25%;
+    padding: 20px;
+    margin: 50px 385px;
+    border-radius: 20px;
+}
+
+label{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+::placeholder{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+    color: none;
+    border-style: groove;
+    border-radius: 20px;
+    outline: none;
+    border: 0;
+    padding: 10px;
+    height:40px;
+    width:80%;
+    margin:0 auto;
+    border:none;
+    
+}
+
+.Boton{
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgba(70, 66, 66, 0.4);
+    color: rgba(256,256,256,0.7);
+    border:0;
+    border-radius: 15px;
+    display: block;
+    margin: 15px auto; 
+    padding: 15px 45px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+.Boton:hover{
+    transition: all .3s ease;
+    background-color: rgba(19, 16, 16, 0.8);
+}
+
+
+
+
+
+
